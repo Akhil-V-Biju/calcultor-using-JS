@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="calcultor.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="model">CASIO</h1><br>
+        <input id="screen" type="text"><br><br> 
+        
+
+        <input type="button" class="button" value="1" onclick="btnclick(value)">
+        <input type="button" class="button" value="2" onclick="btnclick(value)">
+        <input type="button" class="button" value="3" onclick="btnclick(value)">
+        <input type="button" class="button operator" value="+" onclick="btnclick(value)"><br>
+
+        <input type="button" class="button" value="4" onclick="btnclick(value)">
+        <input type="button" class="button" value="5" onclick="btnclick(value)">
+        <input type="button" class="button" value="6" onclick="btnclick(value)">
+        <input type="button" class="button operator" value="-" onclick="btnclick(value)"><br>
+
+        <input type="button" class="button" value="7" onclick="btnclick(value)">
+        <input type="button" class="button" value="8" onclick="btnclick(value)">
+        <input type="button" class="button" value="9" onclick="btnclick(value)">
+        <input type="button" class="button operator" value="*" onclick="btnclick(value)"><br>
+
+        <input type="button" class="button clear" value="c" onclick="clearscrean()">
+        <input type="button" class="button" value="0" onclick="btnclick(value)">
+        <input type="button" class="button" value="=" onclick="findresult()">
+        <input type="button" class="button operator" value="/" onclick="btnclick(value)"><br>
+
+
+
+
+    </div>
+   
+    <script src="calcultor.js"></script>
+</body>
+</html>
